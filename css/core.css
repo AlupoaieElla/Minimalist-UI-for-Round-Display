@@ -1,0 +1,142 @@
+body {
+    margin: 0;
+    background-color: #000;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+    background-color: #000;
+}
+
+.main {
+    width: 600px;
+    height: 600px;
+    background-image: url('img/background.jpg');
+    background-size: 800px;
+    border-radius: 50%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    margin: 30px auto;
+    position: relative;
+}
+::-webkit-scrollbar { 
+    display: none; 
+}
+.header {
+    width: 600px;
+    height: 120px;
+    background-color: #94B5EB;
+}
+
+.header-label {
+    color: #fff;
+    text-align: center;
+    font-weight: 700;
+    font-size: 40px;
+    padding-top: 40px;
+}
+
+.search-bar {
+    margin: auto;
+    width: 400px;
+    margin-top: 20px;
+    position: relative;
+}
+
+.search-input {
+    border: 3px solid #94B5EB;
+    width: 350px;
+    height: 50px;
+    text-indent: 60px;
+    font-size: 18px;
+}
+
+.search-icon {
+    background: url(img/search.png) no-repeat scroll 7px 7px;
+    background-size: 34px;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+
+.button-add {
+    width: 34px;
+    height: 34px;
+    position: absolute;
+    margin-left: 475px;
+    margin-top: -45px;
+}
+
+.contact-list {
+    margin-left: 100px;
+    margin-top: 20px;
+}
+
+.contact {
+    background-color: #94B5EB;
+    width: 410px;
+    height: 70px;
+    border-radius: 35px 0 0 35px;
+    box-shadow: 2px 2px 20px #888888;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.contact-image {
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+}
+
+.image-sarah {
+    background-image: url(img/sarah.jpeg);
+    background-size: 135px;
+    background-position: 41% 50%;
+}
+
+.image-thomas {
+    background-image: url(img/thomas.jpg);
+    background-size: 135px;
+    background-position: 73% 50%;
+}
+
+.image-james {
+    background-image: url(img/james.jpg);
+    background-size: 76px;
+    background-position: 33% 78%;
+}
+
+.image-anne {
+    background-image: url(img/anne.png);
+    background-size: 76px;
+    background-position: 70% 12%;
+}
+
+.image-anne {}
+
+.contact-text {
+    position: absolute;
+    margin-top: -80px;
+    margin-left: 90px;
+    line-height: .2;
+    color: white;
+}
+
+.contact-name {
+    font-size: 28px;
+}
+
+.contact-number {
+    font-size: 18px;
+    s
+}
+
+.button-call {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    margin-top: -55px;
+    margin-left: 360px;
+}
