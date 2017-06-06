@@ -27,23 +27,47 @@
     overflow: hidden;
     position: absolute;
 }
+
+.center-contact{
+	    box-shadow: 2px 2px 20px #888888;
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+	overflow: hidden;
+	position: absolute;
+}
+.contact-sarah{
+  margin-top: -380px;
+    margin-left: 680px;
+}
 .contact-thomas{
     margin-top: -410px;
-    margin-left: 542px;
+    margin-left: 540px;
 }
+
 .contact-lily{
     margin-top: -410px;
-    margin-left: 900px;
+    margin-left: 880px;
 }
 .contact-jenna{
     margin-top: -210px;
-    margin-left: 620px;
+    margin-left: 580px;
 }
 .contact-john{
-       margin-top: -210px;
-    margin-left: 825px;
+    margin-top: -210px;
+    margin-left: 830px;
 }
 .img-thomas{
-	    width: 200px;
+	width: 200px;
     margin-left: -70px;
+}
+.img-sarah{
+    width: 270px;
+    margin-left: -48px;
+}
+.call-contact-name{
+	color: black;
+	position: absolute;
+    margin-top: -220px;
+    margin-left: 695px;
 }
