@@ -2,6 +2,7 @@
     background-color: white;
     width: 600px;
     height: 70px;
+    position: relative;
 }
 .msg-header-img-container{
 	width: 48px;
@@ -17,4 +18,79 @@
 .small-anne{
 	width: 50px;
 
+}
+.chat-name{
+    margin-left: 145px;
+    padding-top: 10px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.chat-phone{
+	margin-left: 145px;
+    padding-top: 10px;
+    line-height: 5px;
+}
+
+.button-call{
+	margin-top: -32px;
+    margin-left: 500px;
+
+}
+
+.messages{
+	margin-top: 20px;
+	overflow-y: scroll;
+    overflow-x: hidden;
+
+}
+.message{
+	background-color: #33364e;
+    width: 330px;
+    height: 150px;
+    margin-left: 100px;
+    margin-bottom: 20px;
+    color: white;
+}
+.message:nth-child(even){
+	background-color: #EBF1FC;
+	margin-left: 200px;
+	color: #33364e;
+	font-weight: 600;
+}
+.message:nth-child(even)::before{
+	 margin-left: 330px;
+	border-color: transparent  transparent  transparent #EBF1FC;
+}
+.message::before { 
+    content: '';
+    display: block;
+    width: 0;
+    height: 0;
+    border: 10px solid;
+    border-color: transparent #33364e transparent transparent;
+    margin-left: -20px;
+    padding-top: 0px;
+    position: absolute;
+    margin-top: 10px;
+}
+
+.message-text{
+	width: 300px;
+    font-size: 25px;
+    
+    margin-left: 20px;
+    margin-top: 10px;
+    position: absolute;
+}
+.m1 {
+	height: 130px;
+}
+
+.m2{
+	height: 120px;
+}
+
+.m3{
+	height: 60px;
 }

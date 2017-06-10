@@ -29,7 +29,7 @@
 }
 
 .center-contact{
-	    box-shadow: 2px 2px 20px #888888;
+	box-shadow: 2px 2px 20px #888888;
 	width: 150px;
 	height: 150px;
 	border-radius: 50%;
@@ -45,11 +45,11 @@
     margin-left: 540px;
 }
 
-.contact-lily{
+.contact-anne{
     margin-top: -410px;
     margin-left: 880px;
 }
-.contact-jenna{
+.contact-james{
     margin-top: -210px;
     margin-left: 580px;
 }
@@ -61,6 +61,18 @@
 	width: 200px;
     margin-left: -70px;
 }
+.img-jenna{
+	    width: 150px;
+    margin-left: -28px;
+}
+.img-anne{
+    width: 120px;
+    margin-left: -13px;
+}
+.img-james{
+	     width: 100px;
+    margin-left: 0px;
+}
 .img-sarah{
     width: 270px;
     margin-left: -48px;
@@ -70,4 +82,9 @@
 	position: absolute;
     margin-top: -220px;
     margin-left: 695px;
+    font-weight: 600;
+}
+.contact:hover,
+.center-contact:hover{
+	box-shadow: 0px 0px 0px #888888;
 }
