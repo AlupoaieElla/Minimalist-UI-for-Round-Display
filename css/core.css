@@ -134,10 +134,15 @@ body {
 }
 
 .button-call {
-    width: 34px;
-    height: 34px;
+    width: 36px;
+    height: 36px;
     position: absolute;
-    margin-top: -52px;
+    margin-top: -53px;
     margin-left: 360px;
+    background-image: url(img/phone-default.png);
+    background-size: 36px;
 }
 
+.button-call:hover{
+    background-image: url(img/phone-active.png);
+}

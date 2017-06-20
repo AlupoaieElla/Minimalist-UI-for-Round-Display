@@ -11,6 +11,12 @@
     position: absolute;
     margin-top: -48px;
     margin-left: 428px;
+    background-image: url(img/phone-default.png);
+    background-size: 36px;
+}
+
+.button-call:hover{
+	background-image: url(img/phone-active.png);
 }
 .call-bar{
 	margin: auto;
@@ -37,25 +43,25 @@
 	position: absolute;
 }
 .contact-sarah{
-  margin-top: -380px;
-    margin-left: 680px;
+  margin-top: -390px;
+    margin-left: 560px;
 }
 .contact-thomas{
     margin-top: -410px;
-    margin-left: 540px;
+    margin-left: 400px;
 }
 
 .contact-anne{
     margin-top: -410px;
-    margin-left: 880px;
+    margin-left: 775px;
 }
 .contact-james{
     margin-top: -210px;
-    margin-left: 580px;
+    margin-left: 470px;
 }
-.contact-john{
+.contact-jenna{
     margin-top: -210px;
-    margin-left: 830px;
+    margin-left: 710px;
 }
 .img-thomas{
 	width: 200px;
@@ -80,8 +86,8 @@
 .call-contact-name{
 	color: black;
 	position: absolute;
-    margin-top: -220px;
-    margin-left: 695px;
+    margin-top: -230px;
+    margin-left: 574px;
     font-weight: 600;
 }
 .contact:hover,

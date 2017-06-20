@@ -15,8 +15,9 @@
  box-shadow: 1px 1px 10px #888888;
 }
 
-.small-anne{
-	width: 50px;
+.small-img{
+	width: 100px;
+    margin-left: -21px;
 
 }
 .chat-name{
@@ -33,11 +34,17 @@
 }
 
 .button-call{
-	margin-top: -32px;
-    margin-left: 500px;
+	width: 42px;
+    height: 42px;
+    margin-top: -36px;
+    margin-left: 480px;
+    background-image: url(img/phone-default.png);
+    background-size: 42px;
 
 }
-
+.button-call:hover{
+	background-image: url(img/phone-active.png);
+}
 .messages{
 	margin-top: 20px;
 	overflow-y: scroll;
@@ -94,3 +101,8 @@
 .m3{
 	height: 60px;
 }
+
+.msg-header-img-container:hover{
+	box-shadow: 0px 0px 10px #fff
+}
+
