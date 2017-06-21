@@ -61,14 +61,6 @@ body {
     margin-top: 5px;
 }
 
-.button-add {
-    width: 34px;
-    height: 34px;
-    position: absolute;
-    margin-left: 475px;
-    margin-top: -45px;
-}
-
 .contact-list {
     margin-left: 100px;
     margin-top: 20px;
@@ -133,29 +125,40 @@ body {
     s
 }
 
-.button-call {
-    width: 36px;
-    height: 36px;
-    position: absolute;
-    margin-top: -53px;
-    margin-left: 370px;
-    background-image: url(img/phone-default.png);
-    background-size: 30px;
-    background-repeat: no-repeat;
+.icon {
+   position:absolute;
+   transform: translate(-50%, -50%);
+   color:#FFF;
+   font-size: 32px; 
+   
+}
+.icon:hover{
+   color:#33364e;
 }
 
-.button-call:hover{
-    background-image: url(img/phone-active.png);
+.icon-phone{
+  top: 50%;
+  left: 95%;
 }
 
-.msg{
-     margin-left: 330px;
-    background-image: url(img/envelope.png);
-    background-size: 29px;
-    margin-top: -49px;
+.icon-bubbles{
+    top: 50%;
+    left: 85%;  
 }
 
-.msg:hover{
-   background-image: url(img/envelope-active.png);
- 
+.icon-plus{
+  top: 28%;
+  left: 82%;
+  color:#94B5EB;
+}
+.icon-search{
+ top: 22%;
+ left: 3%;
+ color: #94B5EB;
+ font-size: 32px;
+ position: absolute;
+}
+.icon-plus:hover,
+{
+   color:#33364e;
 }

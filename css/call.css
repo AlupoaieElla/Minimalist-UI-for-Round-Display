@@ -1,29 +1,18 @@
-.button-hangup {
-  width: 124px;
-    height: 124px;
+.icon-phone-hang-up {
     position: absolute;
-    margin-top: 15px;
-    margin-left: 255px;
-    background-image: url(img/phone-hangup.png);
-    background-size: 95px;
-    background-repeat: no-repeat;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    font-size: 84px;
+    color: #dc0909;
 }
-.contact-sarah {
-    margin-top: -460px;
-    margin-left: 565px;
-
-}
-.call-contact-name {
-    margin-top: -300px;
-    margin-left: 580px;
-    }
-
 .footer{
 	width: 600px;
     height: 120px;
     background-color: #fff;
     margin-top: 360px;
     position: absolute;
+    z-index: 2;
 }
 .connect{
     margin-top: -240px;
@@ -31,24 +20,18 @@
     font-style: italic;
 }
 .microphone{
-    width: 40px;
-    height: 40px;
-    position: absolute;
-    margin-top: 36px;
-    margin-left: 182px;
-    background-image: url(img/microphone-slash.png);
-    background-size: 32px;
-    background-repeat: no-repeat;
+    top: 50%;
+    left: 35%;
+}
+.microphone, 
+.speaker{
+    position:absolute;
+    transform: translate(-50%, -50%);
+    color:#33364e;
+    font-size: 32px;  
 }
 
 .speaker{
-    width: 40px;
-    height: 40px;
-    position: absolute;
-    margin-top: 41px;
-    margin-left: 387px;
-
-    background-image: url(img/volume-up.png);
-    background-size: 34px;
-    background-repeat: no-repeat;
+    top: 50%;
+    left: 65%;
 }

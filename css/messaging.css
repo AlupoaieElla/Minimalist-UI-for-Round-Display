@@ -106,3 +106,17 @@
 	box-shadow: 0px 0px 10px #fff
 }
 
+.icon-phone {
+   position:absolute;
+   transform: translate(-50%, -50%);
+   color:#94B5EB;
+   font-size: 36px; 
+  top: 50%;
+  left: 85%;
+
+}
+
+.icon-phone:hover
+{
+   color:#33364e;
+}

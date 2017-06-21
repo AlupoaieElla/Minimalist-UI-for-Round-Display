@@ -1,0 +1,76 @@
+.main{
+	background-image: url('img/tiles.jpg');
+    background-size: 800px;
+
+}
+
+.button-circle{
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	background-color: #33364e;
+	color: white;
+	text-align: center;
+	position: absolute;
+	transform: translate(-50%, -50%);	
+}
+
+.button-circle:hover{
+	background-color: #94B5EB;
+}
+
+.top-center{
+ 	left: 50%;
+  	top: 15%;	
+}
+
+.top-left{
+ 	left: 25%;
+  	top: 25%;  
+}
+.top-right{
+ 	left: 75%;
+  	top: 25%;  
+}
+
+.middle-left{	
+ 	left: 15%;
+    top: 50%;  
+}
+.middle-right{	
+ 	left: 85%;
+    top: 50%;  
+}
+
+.bottom-left{	
+	left: 25%;
+    top: 75%;	
+}
+.bottom-center{	
+	left: 50%;
+  	top: 85%;  	
+}
+.bottom-right{	
+	left: 75%;
+    top: 75%;	
+}
+.button-circle [class^="icon-"], [class*=" icon-"]{
+	font-size: 42px;
+	color:white;
+	position: absolute;
+	left: 50%;
+	top: 60%;
+	transform: translate(-50%, -50%);
+}
+.container-icon{
+	position: relative;
+	width: 100%;
+	height: 60%;
+}
+
+.label-icon{
+	margin-top: 5px;
+	font-size: 14px;
+	color:white;
+}
+

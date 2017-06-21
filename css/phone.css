@@ -1,7 +1,7 @@
 .call-input{
 	border: 3px solid #94B5EB;
     width: 350px;
-    height: 50px;
+    height: 48px;
     text-indent: 20px;
     font-size: 24px;
 }
@@ -32,6 +32,7 @@
     border-radius: 50%;
     overflow: hidden;
     position: absolute;
+    transform: translate(-50%, -50%);   
 }
 
 .center-contact{
@@ -43,54 +44,78 @@
 	position: absolute;
 }
 .contact-sarah{
-  margin-top: -390px;
-    margin-left: 560px;
+    top:30%;
+    left:50%;
+    transform: translate(-50%, -50%);
 }
+
+.phone-fav-contacts{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+
 .contact-thomas{
-    margin-top: -410px;
-    margin-left: 410px;
+    top: 15%;
+    left: 25%;
 }
 
 .contact-anne{
-    margin-top: -410px;
-    margin-left: 775px;
+    top: 15%;
+    left: 75%;
 }
 .contact-james{
-    margin-top: -210px;
-    margin-left: 470px;
+    top: 45%;
+    left: 25%;
 }
 .contact-jenna{
-    margin-top: -210px;
-    margin-left: 710px;
+ top: 45%;
+ left: 75%;
 }
 .img-thomas{
 	width: 200px;
     margin-left: -70px;
 }
 .img-jenna{
-	    width: 150px;
-    margin-left: -28px;
+   width: 150px;
+   margin-left: -28px;
 }
 .img-anne{
     width: 120px;
     margin-left: -13px;
 }
 .img-james{
-	     width: 100px;
-    margin-left: 0px;
+  width: 100px;
+  margin-left: 0px;
 }
 .img-sarah{
     width: 270px;
     margin-left: -48px;
 }
 .call-contact-name{
-	color: black;
+	color: #33364e;
 	position: absolute;
-    margin-top: -230px;
-    margin-left: 574px;
+    top: 45%;
+    left: 40%;
     font-weight: 600;
 }
 .contact:hover,
 .center-contact:hover{
 	box-shadow: 0px 0px 0px #888888;
+}
+
+.icon-phone{
+   font-size: 36px;
+    top: 26%;
+    left: 73%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    color: #94B5EB;
+
+}
+
+.icon-phone:hover{
+    
+    color: #33364e;
 }
